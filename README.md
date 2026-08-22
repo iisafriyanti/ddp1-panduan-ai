@@ -1,1 +1,1 @@
-<script>window.location.href = '#/id/';</script>
+<script>window.location.href = '/id/';</script>
