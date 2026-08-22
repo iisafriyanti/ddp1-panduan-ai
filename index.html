@@ -13,32 +13,24 @@
   <script>
     window.$docsify = {
       name: 'CS AI Guidelines',
-      repo: '', // Opsional: Isi dengan URL repo GitHub Anda
+      repo: '', 
       
-      // Konfigurasi Multi-Bahasa
-      nameLink: {
-        '/en/': '#/en/',
-        '/id/': '#/id/',
-        '/': '/'
-      },
-      
-      // Daftar bahasa yang tersedia untuk drop-down selector
-      fallbackLanguages: ['en'],
-      routes: {
-        '/en/': 'English',
-        '/id/': 'Bahasa Indonesia'
+      // Amankan path deploy untuk sub-folder GitHub Pages
+      basePath: window.location.pathname.lastIndexOf('/') === 0 ? '' : window.location.pathname.substr(0, window.location.pathname.lastIndexOf('/') + 1),
+
+      // Konfigurasi routing multi-bahasa yang tepat untuk Docsify
+      alias: {
+        '/': '/id/README.md',       // Jika buka halaman utama, langsung muat konten Indonesia
+        '/en/': '/en/README.md',   // Path untuk Bahasa Inggris
+        '/id/': '/id/README.md'    // Path untuk Bahasa Indonesia
       },
 
-      // Pengaturan tampilan single-page per bahasa
       maxLevel: 3,
       subMaxLevel: 3,
       loadSidebar: false
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- Plugin untuk memunculkan drop-down pemilih bahasa -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-language-selector/dist/index.min.js"></script>
-  <!-- Plugin Coder Highlighter -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
 </body>
