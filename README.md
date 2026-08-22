@@ -1,11 +1,17 @@
-# Panduan Penggunaan AI untuk Mahasiswa Pemrograman
+# Panduan Penggunaan AI untuk Mahasiswa DDP 1
 
-Selamat datang di panduan resmi departemen Ilmu Komputer mengenai pemanfaatan alat *Artificial Intelligence* (Generative AI) dalam perkuliahan pemrograman Anda.
+Selamat datang di panduan pemanfaatan *Artificial Intelligence* (Generative AI) dalam perkuliahan pemrograman Anda. Panduan ini dibuat dikarenakan Generative AI, seperti ChatGPT, Gemini, Claude, berkembang sangat cepat belakangan ini dan menjadi bagian dari kehidupan sehari-hari. Bagi Anda sebagai seorang mahasiswa baru mungkin akan bertanya-tanya apakah saya diperbolehkan menggunakannya atau dilarang atau bagaimana dampaknya pada proses pembelajaran bagi saya?
 
 ---
 
-## 1. Filosofi Utama
-Alat AI seperti ChatGPT, Claude, dan GitHub Copilot mengubah cara perangkat lunak dibangun. Tujuan kami adalah memastikan Anda belajar **cara berpikir seperti seorang insinyur perangkat lunak** sebelum Anda belajar mengandalkan mesin pembuat kode otomatis. AI harus diperlakukan sebagai tutor sebaya, bukan penulis bayangan (*ghostwriter*).
+## 1. Apa itu *Artificial Intelillegence*?
+Definisi mengenai Kecerdasan Buatan (Artificial Intelligence atau AI) sangat beragam dan maknanya terus bergeser tergantung pada konteks pengembangannya. Sejak komputer mulai bermunculan pada dekade 1950-an, para ilmuwan berusaha merancang mesin yang mampu memiliki kecerdasan layaknya manusia. Dari sinilah berbagai algoritma dan bahasa pemrograman mulai dikembangkan agar komputer dapat melakukan tugas-tugas kognitif seperti belajar, beradaptasi, memecahkan masalah (problem solving), hingga mengambil keputusan. 
+
+Jika melihat sejarahnya, perkembangan AI dimulai sekitar tahun 1950-an oleh Alan Turing melalui Turing Test, yang dirancang untuk menguji apakah mesin bisa meniru kecerdasan manusia. Jaringan saraf tiruan (neural networks) pertama juga mulai digunakan pada era ini untuk membantu pengenalan pola dan pemodelan prediktif. Pada tahun 1960-an, chatbot ELIZA diciptakan di MIT sebagai program Natural Language Processing pertama. Sayangnya, penelitian AI sempat terhenti di antara tahun 1960-an hingga 1970-an karena kurangnya dana penelitian, fase yang dikenal sebagai AI Winter. 
+
+Pendaran riset kembali bangkit pada tahun 1990-an melalui dukungan komputasi dari IBM serta perkembangan komputer dan internet. Meningkatnya adopsi internet, kapasitas komputasi yang lebih besar, dan melimpahnya data manusia mendorong kemajuan teknologi AI secara stabil. Hingga akhirnya sejak tahun 2021 ke atas, peluncuran ChatGPT pada tahun 2022 memulai era AI boom dengan kemampuan AI yang jauh lebih akurat dan bertenaga.
+
+
 
 ## 2. Penggunaan AI yang Diizinkan (Zona Hijau)
 Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, memperluas pemahaman konsep, dan membantu proses perbaikan kode (*debugging*).
