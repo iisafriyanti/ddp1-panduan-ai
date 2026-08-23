@@ -132,6 +132,27 @@ AI bekerja berdasarkan pencocokan pola statistik dan probabilitas, bukan berdasa
 
 Sebagai calon _programmer_, tugas Anda bukanlah menelan mentah-mentah output AI, melainkan melakukan *code review*, verifikasi logika, dan validasi fakta secara kritis.
 
+
+### Dampak dan Risiko AI dalam Pemembangan Perangkat Lunak
+
+Meskipun AI memberikan keuntungan yang sangat besar dalam pengembangan perangkat lunak, teknologi ini juga membawa potensi risiko yang harus dikelola secara proaktif.
+
+#### 1. Bias pada Model AI (*Bias in AI Models*)
+Model AI dapat menghasilkan kode atau keputusan yang memihak atau diskriminatif jika data pelatihannya memiliki bias.
+* **Solusi:** Melakukan audit secara berkala terhadap output AI untuk memastikan keadilan, serta mengintegrasikan alat pendeteksi bias (*bias detection tools*) untuk menghasilkan luaran yang lebih setara dan adil.
+
+#### 2. Ketergantungan Berlebihan pada AI (*Overreliance on AI*)
+Pengembang (*developer*) dapat menjadi terlalu bergantung pada alat AI untuk menulis kode, melakukan *debugging*, atau pengujian. Hal ini berisiko menurunkan keterampilan dasar pemrograman (*fundamental programming skills*) mereka.
+* **Solusi:** Pengembang harus menjadikan AI sebagai **alat bantu** sembari terus menjaga, melatih, dan mengasah keahlian teknis mereka sendiri.
+
+#### 3. Kerentanan Keamanan (*Security Vulnerabilities*)
+Kode yang dihasilkan oleh AI dapat membawa celah atau kerentanan keamanan jika tidak diperiksa dengan benar.
+* **Solusi:** Pengawasan manual oleh manusia (*human oversight*) harus tetap menjadi komponen krusial dalam proses peninjauan kode (*code review*).
+
+#### 4. Kurangnya Transparansi (*Lack of Transparency*)
+Banyak model AI, khususnya dalam *Machine Learning*, bekerja seperti "kotak hitam" (*black box*) yang proses pengambilan keputusannya tidak sepenuhnya transparan atau tidak dapat dijelaskan kepada pengguna.
+* **Solusi:** Jika memungkinkan, pengembang sebaiknya memilih dan menggunakan model-model yang lebih mudah diinterpretasikan (*interpretable models*).
+* 
 ## 2. Penggunaan AI yang Diizinkan (Zona Hijau)
 Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, memperluas pemahaman konsep, dan membantu proses perbaikan kode (*debugging*).
 
@@ -141,6 +162,7 @@ Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, mempe
 
 ### Contoh Prompt AI yang Benar
 > *"Saya menulis algoritma binary search dengan Python ini, tetapi mengalami infinite loop pada array berukuran genap. Bisakah Anda menjelaskan secara konsep mengapa ini terjadi tanpa memberikan perbaikan kodenya secara langsung?"*
+
 
 ## 3. Penggunaan AI yang Dilarang (Zona Merah)
 Menggunakan AI dengan cara di bawah ini termasuk dalam pelanggaran akademik dan akan dikenakan sanksi disiplin.
