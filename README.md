@@ -37,12 +37,43 @@ Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungk
 > **Catatan Akademis:**  
 > Konsep probabilitas dan pemetaan statistik ini akan Anda pelajari secara mendalam pada mata kuliah **Statistika dan Probabilitas** dan **KASDD**. Pemahaman mendasar ini akan menjadi fondasi penting ketika Anda mengambil mata kuliah lanjutan di ranah AI, seperti **Machine Learning (ML)** dan **Deep Learning (DL)**.
 
-## Pengaplikasian AI di Pemrograman
+## Pemanfaatan AI di Pemrograman
 Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
 
 Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_.
 
+### Pemanfaatan AI dalam Pemrograman
 
+Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para pemrogram. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
+
+Berikut adalah beberapa penerapan utama AI dalam pemrograman yang perlu Anda ketahui:
+
+#### 1. Generasi Kode Otomatis (*Code Generation*)
+AI dapat membuat potongan kode (*code snippet*), fungsi, atau bahkan kerangka aplikasi berdasarkan instruksi teks (*prompt*) yang diberikan.
+* **Contoh:** Menuliskan instruksi *"Buat fungsi Python untuk mengurutkan array angka secara ascending"*, dan AI akan langsung menghasilkan kodenya.
+
+#### 2. Melengkapi Kode Otomatis (*Code Completion*)
+Mirip dengan fitur *autocomplete* pada keyboard HP, AI pada editor kode (seperti VS Code) dapat memprediksi baris kode selanjutnya saat Anda sedang mengetik.
+* **Dampak:** Mempercepat proses mengetik kode (*coding*) dan mengurangi kesalahan penulisan (*syntax error*).
+
+#### 3. Penemuan dan Perbaikan Bug (*Bug Detection & Fixing*)
+Sistem AI dapat menganalisis kode untuk menemukan potensi kesalahan, kerentanan keamanan, atau variabel yang tidak digunakan sebelum program dijalankan.
+* **Dampak:** AI tidak hanya menunjukkan lokasi error, tetapi juga menyarankan solusi perbaikannya.
+
+#### 4. Pembuatan Dokumen Kode Otomatis (*Automated Documentation*)
+AI dapat membaca logika kode yang telah ditulis dan secara otomatis membuatkan komentar penjelasan atau dokumentasi teknis.
+* **Dampak:** Membantu pemrogram lain (atau Anda sendiri di masa depan) untuk memahami alur fungsi kode dengan lebih cepat.
+
+#### 5. Pengujian Perangkat Lunak (*Automated Testing*)
+AI dapat secara otomatis membuat skenario pengujian (*test cases*) dan *unit test* untuk memastikan program berjalan sesuai rencana dalam berbagai kondisi *input*.
+
+#### 6. Refaktor Kode (*Code Refactoring*)
+AI dapat menganalisis kode yang sudah ada dan menyarankan struktur baru yang lebih bersih, lebih efisien, serta lebih mudah dirawat tanpa mengubah hasil akhirnya.
+
+---
+
+> **Peringatan untuk Pemrogram Semester 1:**  
+> AI adalah **alat bantu**, bukan **pengganti logika berpikir Anda**. Menggunakan AI untuk memahami sintaks dan mencari *bug* sangat dianjurkan, tetapi mengandalkan AI tanpa memahami logika kodenya sendiri akan menghambat perkembangan Anda sebagai seorang *software engineer*.
 ## Karakteristik & Keterbatasan AI yang Wajib Dipahami
 
 Sebelum memanfaatkan AI untuk mendukung aktivitas akademik dan pemograman, ada beberapa aspek fundamental mengenai cara kerja dan keterbatasan AI yang perlu Anda pahami:
