@@ -7,11 +7,40 @@ Selamat datang di panduan pemanfaatan *Artificial Intelligence* (Generative AI) 
 ## 1. Apa itu *Artificial Intelillegence*?
 Definisi mengenai Kecerdasan Buatan (Artificial Intelligence atau AI) sangat beragam dan maknanya terus bergeser tergantung pada konteks pengembangannya. Sejak komputer mulai bermunculan pada dekade 1950-an, para ilmuwan berusaha merancang mesin yang mampu memiliki kecerdasan layaknya manusia. Dari sinilah berbagai algoritma dan bahasa pemrograman mulai dikembangkan agar komputer dapat melakukan tugas-tugas kognitif seperti belajar, beradaptasi, memecahkan masalah (problem solving), hingga mengambil keputusan. 
 
+### Sejarah Perkembangan AI
 Jika melihat sejarahnya, perkembangan AI dimulai sekitar tahun 1950-an oleh Alan Turing melalui Turing Test, yang dirancang untuk menguji apakah mesin bisa meniru kecerdasan manusia. Jaringan saraf tiruan (neural networks) pertama juga mulai digunakan pada era ini untuk membantu pengenalan pola dan pemodelan prediktif. Pada tahun 1960-an, chatbot ELIZA diciptakan di MIT sebagai program Natural Language Processing pertama. Sayangnya, penelitian AI sempat terhenti di antara tahun 1960-an hingga 1970-an karena kurangnya dana penelitian, fase yang dikenal sebagai AI Winter. 
 
 Pendaran riset kembali bangkit pada tahun 1990-an melalui dukungan komputasi dari IBM serta perkembangan komputer dan internet. Meningkatnya adopsi internet, kapasitas komputasi yang lebih besar, dan melimpahnya data manusia mendorong kemajuan teknologi AI secara stabil. Hingga akhirnya sejak tahun 2021 ke atas, peluncuran ChatGPT pada tahun 2022 memulai era AI boom dengan kemampuan AI yang jauh lebih akurat dan bertenaga.
 
+### Definisi AI
+Secara sederhana, **Artificial Intelligence (AI)** adalah sistem komputasi yang dirancang untuk menjalankan berbagai tugas dengan cara menerima *input* dan menghasilkan *output*. *Input* yang dimasukkan bisa sangat beragam—mulai dari teks, gambar, suara, hingga video. *Input* tersebut kemudian diproses oleh mesin untuk menghasilkan *output* berupa prediksi, pembuatan konten baru, rekomendasi, hingga keputusan yang dipakai oleh kita.
 
+Secara matematis, konsep kerja AI dapat diringkas melalui persamaan fungsi matematika sbb:
+
+$$f(x) = y$$
+
+* **$x$** merepresentasikan **Input** (data atau perintah yang Anda berikan).
+* **$y$** merepresentasikan **Output** (hasil, prediksi, atau respons dari AI).
+* **$f(x)$** merepresentasikan **Model AI** itu sendiri.
+
+### Perbedaan AI dengan Pemrograman Konvensional
+
+Hal yang membedakan AI dengan pemrograman biasa terletak pada bagaimana fungsi $f(x)$ tersebut dibuat:
+
+1. **Pemrograman Konvensional (*Hard-coded*):** Pemrogram (*programmer*) menulis aturan dan logika secara eksplisit di dalam kode untuk mengubah $x$ menjadi $y$.
+2. **Artificial Intelligence (*Data-driven*):** Pemrogram tidak menulis kodenya secara manual, melainkan melatih (*training*) fungsi $f(x)$ menggunakan kumpulan data yang sangat besar. 
+
+Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungkinan *input* ke *output* berdasarkan **probabilitas**. Oleh karena itu, kualitas dan karakter *output* ($y$) yang Anda dapatkan akan sangat bergantung pada bagaimana fungsi $f(x)$ dibentuk, yang mana sangat dipengaruhi oleh data yang digunakan saat proses pelatihan.
+
+---
+
+> **Catatan Akademis:**  
+> Konsep probabilitas dan pemetaan statistik ini akan Anda pelajari secara mendalam pada mata kuliah **Statistika dan Probabilitas** dan **KASDD**. Pemahaman mendasar ini akan menjadi fondasi penting ketika Anda mengambil mata kuliah lanjutan di ranah AI, seperti **Machine Learning (ML)** dan **Deep Learning (DL)**.
+
+## Pengaplikasian AI di Pemrograman
+Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
+
+Di sisi pemrograman
 
 ## 2. Penggunaan AI yang Diizinkan (Zona Hijau)
 Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, memperluas pemahaman konsep, dan membantu proses perbaikan kode (*debugging*).
