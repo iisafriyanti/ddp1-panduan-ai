@@ -40,14 +40,9 @@ Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungk
 ## Pemanfaatan AI di Pemrograman
 Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
 
-Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_.
-
-### Pemanfaatan AI dalam Pemrograman
-
-Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para pemrogram. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
+Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_. Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para pemrogram. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
 
 Berikut adalah beberapa penerapan utama AI dalam pemrograman yang perlu Anda ketahui:
-
 #### 1. Generasi Kode Otomatis (*Code Generation*)
 AI dapat membuat potongan kode (*code snippet*), fungsi, atau bahkan kerangka aplikasi berdasarkan instruksi teks (*prompt*) yang diberikan.
 * **Contoh:** Menuliskan instruksi *"Buat fungsi Python untuk mengurutkan array angka secara ascending"*, dan AI akan langsung menghasilkan kodenya.
@@ -72,8 +67,37 @@ AI dapat menganalisis kode yang sudah ada dan menyarankan struktur baru yang leb
 
 ---
 
-> **Peringatan untuk Pemrogram Semester 1:**  
+> **Peringatan untuk Mahasiswa Dasar-Dasar Pemrograman 1:**  
 > AI adalah **alat bantu**, bukan **pengganti logika berpikir Anda**. Menggunakan AI untuk memahami sintaks dan mencari *bug* sangat dianjurkan, tetapi mengandalkan AI tanpa memahami logika kodenya sendiri akan menghambat perkembangan Anda sebagai seorang *software engineer*.
+
+### Tips Berinteraksi dengan AI (Prompt Engineering) untuk Pemrograman
+
+#### 1. AI Bukan Manusia: Mereka Membutuhkan Konteks Lengkap
+AI tidak memiliki intuisi, perasaan, atau pemahaman tentang latar belakang masalah Anda jika tidak diberi tahu. Berikan detail latar belakang yang jelas agar AI memahami situasi yang sedang Anda hadapi.
+
+#### 2. Prompt LLM Berbeda dengan Mesin Pencari (*Search Engine*)
+Saat menggunakan Google, kita terbiasa mengetik kata kunci pendek seperti `"cara sort array python"`. Namun pada Large Language Model (LLM) seperti ChatGPT atau Claude, **prompt yang terlalu singkat tidak akan maksimal**. AI membutuhkan instruksi yang deskriptif dan terstruktur.
+
+#### 3. Jelaskan Masalah dan Tujuan Program Secara Spesifik
+Sampaikan secara eksplisit apa gol utama yang ingin dicapai dan batasan teknis yang harus dipatuhi AI.
+* **Sebutkan Bahasa & Versi:** Misal: Python 3.10, C++, atau Java.
+* **Sebutkan Library/Framework:** Misal: *"Gunakan pustaka NumPy"* atau *"Jangan gunakan pustaka eksternal, gunakan pure C++"*.
+* **Sebutkan Batasan (*Constraints*):** Misal: *"Buat kode ini seefisien mungkin tanpa menggunakan perulangan bersarang (nested loop)"*.
+
+#### 4. Gunakan Pendekatan Bertahap (*Iterative Prompting*)
+Sangat jarang AI bisa memberikan jawaban 100% sempurna hanya dalam **satu kali perintah**. Mengembangkan kode bersama AI adalah proses dialog bertahap:
+1. Berikan perintah awal untuk membuat kerangka dasar.
+2. Uji coba (*run*) kode tersebut di komputer Anda.
+3. Jika ada *error* atau kekurangan, salin pesan *error* tersebut dan minta AI untuk memperbaikinya (*debugging* bertahap).
+
+### Perbandingan Contoh Instruksi (*Prompt*)
+
+* **Contoh Singkat / Kurang Baik (Gaya Search Engine):**
+  > *"Buat kode bikin grafik di python."*
+  
+* **Contoh Spesifik & Berkonteks (Gaya LLM):**
+  > *"Saya mahasiswa semester 1 sedang belajar menganalisis data. Tolong buatkan fungsi Python menggunakan library **Matplotlib** untuk membuat **line chart** dari data penjualan bulanan. Berikan komentar penjelasan pada setiap baris kode agar saya mudah memahaminya."*
+
 ## Karakteristik & Keterbatasan AI yang Wajib Dipahami
 
 Sebelum memanfaatkan AI untuk mendukung aktivitas akademik dan pemograman, ada beberapa aspek fundamental mengenai cara kerja dan keterbatasan AI yang perlu Anda pahami:
