@@ -40,7 +40,42 @@ Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungk
 ## Pengaplikasian AI di Pemrograman
 Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
 
-Di sisi pemrograman
+Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_.
+
+
+## Karakteristik & Keterbatasan AI yang Wajib Dipahami
+
+Sebelum memanfaatkan AI untuk mendukung aktivitas akademik dan pemograman, ada beberapa aspek fundamental mengenai cara kerja dan keterbatasan AI yang perlu Anda pahami:
+
+### 1. AI Sangat Bergantung pada Keputusan Manusia (Bias & Praktik Kerja)
+AI dikembangkan berdasarkan bagaimana manusia merancang algoritma, mengumpulkan data, mengelola, serta melakukan *labeling* (anotasi) data. 
+* **Asumsi & Bias Manusia:** Keputusan mengenai data apa yang dimasukkan atau dibuang sepenuhnya bergantung pada kriteria tim pengembang.
+* **Eksploitasi Tenaga Kerja (*Labour Practices*):** Proses anotasi data sering kali melibatkan tenaga kerja berupah rendah di negara berkembang. Sebagai contoh, OpenAI pernah memanfaatkan pekerja di Kenya untuk menandai konten bahaya/beracun guna melatih model ChatGPT.
+* **Representasi Data:** Data yang dikumpulkan sering kali tidak mewakili kondisi global secara adil (*underrepresented*), sehingga model cenderung memihak pada budaya atau populasi dari sumber data terbesar.
+
+### 2. Kualitas Data Internet: Hak Cipta, Informasi Palsu, dan *Synthetic Data*
+Sistem AI dilatih menggunakan miliaran data yang beredar di internet—termasuk data yang mungkin pernah Anda unggah. Konsekuensinya:
+* **Informasi Tidak Terverifikasi:** Data internet mengandung banyak *hoax*, rumor, atau bias sosial yang dapat ikut dipelajari oleh AI.
+* **Isu Hak Cipta & Privasi:** Banyak model AI dilatih menggunakan karya cipta orang lain atau data pribadi (*private data*) tanpa izin yang sah secara etis.
+* **Data Sintetis (*Synthetic Data*):** Kini semakin banyak data di internet yang dibuat oleh AI lain untuk melatih AI baru, yang berisiko memperburuk kualitas model di masa depan (*model collapse*).
+
+### 3. AI Belajar dari Interaksi Kita (*User Data*)
+Saat Anda berinteraksi dengan sistem AI, platform tersebut sering kali merekam percakapan, perintah (*prompt*), dan kode yang Anda unggah untuk dijadikan bahan pelatihan tambahan. 
+> *Pertanyaan untuk Anda: Menurut Anda, apa contoh bahaya nyata jika seorang pemrogram memasukkan kode rahasia atau API Key milik perusahaan ke dalam kolom chat AI?*
+
+### 4. Pembentukan Pola melalui *Reinforcement Learning*
+Sistem AI dilatih untuk mengenali preferensi manusia. Saat Anda disajikan dua pilihan jawaban dan diminta memilih mana yang lebih baik, Anda sedang berpartisipasi dalam **RLHF (*Reinforcement Learning from Human Feedback*)**. 
+* Melalui mekanisme *trial and error*, sistem menerima umpan balik (*reward*) untuk memprioritaskan gaya respons yang paling disukai pengguna.
+
+---
+
+### Kesimpulan: Mengapa AI Bisa "Halusinasi"?
+
+Dengan memahami seluruh proses di atas, Anda dapat menyimpulkan bahwa **output dari AI tidak pernah 100% akurat**. 
+
+AI bekerja berdasarkan pencocokan pola statistik dan probabilitas, bukan berdasarkan pemahaman fakta yang sebenarnya. Ketika AI memberikan jawaban yang terdengar sangat meyakinkan tetapi secara faktual salah atau mengada-ada, fenomena ini disebut sebagai **Halusinasi AI (*AI Hallucination*)**. 
+
+Sebagai calon _programmer_, tugas Anda bukanlah menelan mentah-mentah output AI, melainkan melakukan *code review*, verifikasi logika, dan validasi fakta secara kritis.
 
 ## 2. Penggunaan AI yang Diizinkan (Zona Hijau)
 Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, memperluas pemahaman konsep, dan membantu proses perbaikan kode (*debugging*).
