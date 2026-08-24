@@ -4,7 +4,7 @@ Selamat datang di panduan pemanfaatan *Artificial Intelligence* (Generative AI) 
 
 ---
 
-## 1. Apa itu *Artificial Intelillegence*?
+## A. Apa itu *Artificial Intelillegence*?
 Definisi mengenai Kecerdasan Buatan (Artificial Intelligence atau AI) sangat beragam dan maknanya terus bergeser tergantung pada konteks pengembangannya. Sejak komputer mulai bermunculan pada dekade 1950-an, para ilmuwan berusaha merancang mesin yang mampu memiliki kecerdasan layaknya manusia. Dari sinilah berbagai algoritma dan bahasa pemrograman mulai dikembangkan agar komputer dapat melakukan tugas-tugas kognitif seperti belajar, beradaptasi, memecahkan masalah (problem solving), hingga mengambil keputusan. 
 
 ### Sejarah Perkembangan AI
@@ -37,7 +37,7 @@ Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungk
 > **Catatan Akademis:**  
 > Konsep probabilitas dan pemetaan statistik ini akan Anda pelajari secara mendalam pada mata kuliah **Statistika dan Probabilitas** dan **KASDD**. Pemahaman mendasar ini akan menjadi fondasi penting ketika Anda mengambil mata kuliah lanjutan di ranah AI, seperti **Machine Learning (ML)** dan **Deep Learning (DL)**.
 
-## Pemanfaatan AI di Pemrograman
+## B. Pemanfaatan AI di Pemrograman
 Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
 
 Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_. Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para pemrogram. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
@@ -98,7 +98,7 @@ Sangat jarang AI bisa memberikan jawaban 100% sempurna hanya dalam **satu kali p
 * **Contoh Spesifik & Berkonteks (Gaya LLM):**
   > *"Saya mahasiswa semester 1 sedang belajar menganalisis data. Tolong buatkan fungsi Python menggunakan library **Matplotlib** untuk membuat **line chart** dari data penjualan bulanan. Berikan komentar penjelasan pada setiap baris kode agar saya mudah memahaminya."*
 
-## Karakteristik & Keterbatasan AI yang Wajib Dipahami
+## C. Karakteristik & Keterbatasan AI yang Wajib Dipahami
 
 Sebelum memanfaatkan AI untuk mendukung aktivitas akademik dan pemograman, ada beberapa aspek fundamental mengenai cara kerja dan keterbatasan AI yang perlu Anda pahami:
 
@@ -124,7 +124,7 @@ Sistem AI dilatih untuk mengenali preferensi manusia. Saat Anda disajikan dua pi
 
 ---
 
-### Kesimpulan: Mengapa AI Bisa "Halusinasi"?
+#### Kesimpulan: Mengapa AI Bisa "Halusinasi"?
 
 Dengan memahami seluruh proses di atas, Anda dapat menyimpulkan bahwa **output dari AI tidak pernah 100% akurat**. 
 
@@ -133,28 +133,28 @@ AI bekerja berdasarkan pencocokan pola statistik dan probabilitas, bukan berdasa
 Sebagai calon _programmer_, tugas Anda bukanlah menelan mentah-mentah output AI, melainkan melakukan *code review*, verifikasi logika, dan validasi fakta secara kritis.
 
 
-### Dampak dan Risiko AI dalam Pemembangan Perangkat Lunak
+## D. Dampak dan Risiko AI dalam Pemembangan Perangkat Lunak
 
 Meskipun AI memberikan keuntungan yang sangat besar dalam pengembangan perangkat lunak, teknologi ini juga membawa potensi risiko yang harus dikelola secara proaktif.
 
-#### 1. Bias pada Model AI (*Bias in AI Models*)
+### 1. Bias pada Model AI (*Bias in AI Models*)
 Model AI dapat menghasilkan kode atau keputusan yang memihak atau diskriminatif jika data pelatihannya memiliki bias.
 * **Solusi:** Melakukan audit secara berkala terhadap output AI untuk memastikan keadilan, serta mengintegrasikan alat pendeteksi bias (*bias detection tools*) untuk menghasilkan luaran yang lebih setara dan adil.
 
-#### 2. Ketergantungan Berlebihan pada AI (*Overreliance on AI*)
+### 2. Ketergantungan Berlebihan pada AI (*Overreliance on AI*)
 Pengembang (*developer*) dapat menjadi terlalu bergantung pada alat AI untuk menulis kode, melakukan *debugging*, atau pengujian. Hal ini berisiko menurunkan keterampilan dasar pemrograman (*fundamental programming skills*) mereka.
 * **Solusi:** Pengembang harus menjadikan AI sebagai **alat bantu** sembari terus menjaga, melatih, dan mengasah keahlian teknis mereka sendiri.
 
-#### 3. Kerentanan Keamanan (*Security Vulnerabilities*)
+### 3. Kerentanan Keamanan (*Security Vulnerabilities*)
 Kode yang dihasilkan oleh AI dapat membawa celah atau kerentanan keamanan jika tidak diperiksa dengan benar.
 * **Solusi:** Pengawasan manual oleh manusia (*human oversight*) harus tetap menjadi komponen krusial dalam proses peninjauan kode (*code review*).
 
-#### 4. Kurangnya Transparansi (*Lack of Transparency*)
+### 4. Kurangnya Transparansi (*Lack of Transparency*)
 Banyak model AI, khususnya dalam *Machine Learning*, bekerja seperti "kotak hitam" (*black box*) yang proses pengambilan keputusannya tidak sepenuhnya transparan atau tidak dapat dijelaskan kepada pengguna.
 * **Solusi:** Jika memungkinkan, pengembang sebaiknya memilih dan menggunakan model-model yang lebih mudah diinterpretasikan (*interpretable models*).
 * 
 
-### Penggunaan AI secara Bertanggung Jawab (Responsible AI Use)
+## D. Penggunaan AI secara Bertanggung Jawab (Responsible AI Use)
 
 Menggunakan AI secara bertanggung jawab membutuhkan lebih dari sekadar tahu alat apa yang harus dipakai. Anda dituntut untuk memiliki kemampuan **berpikir kritis** terhadap informasi yang dihasilkan AI, memahami asal-usulnya, menyadari keterbatasannya, serta mengambil keputusan akhir berdasarkan pertimbangan logika dan pertimbangan manusia (*human judgement*).
 
@@ -162,7 +162,7 @@ Untuk mengevaluasi kode maupun informasi yang dihasilkan AI, Anda dapat mengguna
 
 ---
 
-#### Kerangka Evaluasi Kritis Output AI
+### Evaluasi Output dari AI
 
 1. **Otoritas (*Authority*)**
    * **Pertanyaan Evaluasi:** Apakah AI memberikan referensi asal informasinya? Apakah kutipan, tautan, atau fungsi pustaka (*library*) yang disarankan benar-benar ada?
