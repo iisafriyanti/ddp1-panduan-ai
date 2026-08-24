@@ -227,35 +227,14 @@ Gunakan pertanyaan-pertanyaan refleksi berikut untuk mengevaluasi proses kerja d
 > **Tujuan Refleksi:**  
 > Melatih kesadaran metakognitif (*metacognition*) Anda agar tidak sekadar menjadi "tukang salin" (*copy-paster*), melainkan mampu menganalisis efektivitas *prompt* dan mengasah kemampuan *debugging* secara mandiri.
 
-
-## 2. Penggunaan AI yang Diizinkan (Zona Hijau)
-Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, memperluas pemahaman konsep, dan membantu proses perbaikan kode (*debugging*).
-
-* **Penjelasan Konsep:** Meminta AI menjelaskan algoritma yang rumit, struktur data, atau arti dari sebuah pesan *error*.
-* **Review Kode:** Menempelkan *kode yang Anda tulis sendiri* ke AI dan meminta saran perbaikan sintaks atau optimasi performa.
-* **Membuat Test Case:** Meminta AI membuat variasi input acak untuk menguji ketahanan program yang Anda buat.
-
-### Contoh Prompt AI yang Benar
-> *"Saya menulis algoritma binary search dengan Python ini, tetapi mengalami infinite loop pada array berukuran genap. Bisakah Anda menjelaskan secara konsep mengapa ini terjadi tanpa memberikan perbaikan kodenya secara langsung?"*
-
-
-## 3. Penggunaan AI yang Dilarang (Zona Merah)
-Menggunakan AI dengan cara di bawah ini termasuk dalam pelanggaran akademik dan akan dikenakan sanksi disiplin.
-
-* **Pembuatan Kode Secara Langsung:** Memasukkan soal tugas kuliah ke AI agar AI menuliskan fungsi, skrip, atau seluruh program untuk Anda.
-* **Bantuan Ujian dan Kuis:** Menggunakan alat AI apa pun selama kuis, ujian, atau penilaian praktikum yang dibatasi waktu.
-* **Kamuflase Kode:** Menggunakan AI untuk menulis ulang (*rewrite/humanize*) kode hasil buatan AI agar lolos dari deteksi plagiarisme otomatis (seperti MOSS).
-
-```python
-# 🚫 DILARANG: Jangan copy-paste soal tugas langsung ke AI
-def selesaikan_tugas_3_untuk_saya():
-    pass
-```
-
-## 5. Aturan "Jelaskan Kodemu"
-Dosen dan asisten praktikum berhak memanggil mahasiswa kapan saja untuk sesi *code-review* secara langsung. Jika Anda tidak bisa menjelaskan logika, kompleksitas waktu (*time complexity*), dan sintaks dari kode yang Anda kumpulkan, **Anda akan mendapat nilai nol untuk tugas tersebut**, terlepas dari apakah software plagiarisme mendeteksinya atau tidak.
-
 ## Referensi
+1. https://www.tandfonline.com/doi/full/10.1080/10494820.2025.2514372#d1e98
+2. https://ailiteracyframework.org/
+3. https://researchguides.library.vanderbilt.edu/c.php?g=1443398&p=10722153
+4. https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1262/assignments/7-huffman-ai-coding/
+5. https://researchguides.library.vanderbilt.edu/ld.php?content_id=81139914
+6. https://craft.stanford.edu/resources/ (More AI Literacy Activities)
+7. Geeks for Geeks
 
 ## Acknowledgement
 Halaman ini berasal dari berbagai sumber tentang literasi AI dan panduan penggunaan AI pada pemrograman. Hasil rangkuman tersebut kemudian menjadi slide presentasi untuk mata kuliah PBP dan kemudian diubah menjadi halaman panduan ini. Tim penulis juga meminta bantuan AI (Gemini) untuk memperbaiki isi tulisan dan kemudian direview dan diperbaiki lagi oleh tim penulis.
