@@ -40,7 +40,7 @@ Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungk
 > **Catatan Akademis:**  
 > Konsep probabilitas dan pemetaan statistik ini akan Anda pelajari secara mendalam pada mata kuliah **Statistika dan Probabilitas** dan **KASDD**. Pemahaman mendasar ini akan menjadi fondasi penting ketika Anda mengambil mata kuliah lanjutan di ranah AI, seperti **Machine Learning (ML)** dan **Deep Learning (DL)**.
 
-## B. Pemanfaatan AI di Pemrograman
+## B. Pemanfaatan AI pada Pemrograman
 Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
 
 Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_. Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para pemrogram. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
@@ -70,8 +70,21 @@ AI dapat menganalisis kode yang sudah ada dan menyarankan struktur baru yang leb
 
 ---
 
-> **Peringatan untuk Mahasiswa Dasar-Dasar Pemrograman 1:**  
-> AI adalah **alat bantu**, bukan **pengganti logika berpikir Anda**. Menggunakan AI untuk memahami sintaks dan mencari *bug* sangat dianjurkan, tetapi mengandalkan AI tanpa memahami logika kodenya sendiri akan menghambat perkembangan Anda sebagai seorang *software engineer*.
+### **Batasan Penggunaan AI di Dasar-Dasar Pemrograman 1:**  
+AI adalah **alat bantu**, bukan **pengganti logika berpikir Anda**. Menggunakan AI untuk memahami sintaks dan mencari *bug* sangat dianjurkan, tetapi mengandalkan AI tanpa memahami logika kodenya sendiri akan menghambat perkembangan Anda sebagai seorang *programmer*. Dengan demikian, Anda juga dapat memanfaatkan AI untuk proses pembelajaran di DDP 1 secara bertanggungjawab. Namun, segala bentuk asesmen di perkuliahan DDP 1 seperti **lab, kuis, ujian tengah semester, dan ujian akhir semster tidak diperkenankan menggunakan AI** untuk mengerjakannya. Di sisi lain, Anda dapat **memanfaatkan AI untuk Tugas Proyek Akhir Berkelompok** (penjelasan terkait ini akan diumumkan kemudian).
+
+#### Penggunaan AI yang Diperbolehkan
+Anda sangat disarankan menggunakan alat AI untuk mempercepat pembelajaran, memperluas pemahaman konsep, dan membantu proses perbaikan kode (debugging).
+- Penjelasan Konsep: Meminta AI menjelaskan algoritma yang rumit, struktur data, atau arti dari sebuah pesan error.
+- Review Kode: Menempelkan kode yang Anda tulis sendiri ke AI dan meminta saran perbaikan sintaks atau optimasi performa.
+- Membuat Test Case: Meminta AI membuat variasi input acak untuk menguji ketahanan program yang Anda buat.
+
+#### Penggunaan AI yang Dilarang
+Menggunakan AI dengan cara di bawah ini untuk asesmen **lab, kuis, dan ujian** termasuk dalam pelanggaran akademik dan akan dikenakan sanksi disiplin. 
+- Pembuatan Kode Secara Langsung: Memasukkan soal tugas kuliah ke AI agar AI menuliskan fungsi, skrip, atau seluruh program untuk Anda.
+- Bantuan Ujian dan Kuis: Menggunakan alat AI apa pun selama kuis, ujian, atau penilaian praktikum yang dibatasi waktu.
+- Kamuflase Kode: Menggunakan AI untuk menulis ulang (rewrite/humanize) kode hasil buatan AI agar lolos dari deteksi plagiarisme otomatis (seperti MOSS).
+
 
 ### Tips Berinteraksi dengan AI (Prompt Engineering) untuk Pemrograman
 
