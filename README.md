@@ -228,5 +228,5 @@ Halaman ini berasal dari berbagai sumber tentang literasi AI dan panduan penggun
 ## Tim Penulis
 - Iis Afriyanti
 - Daya Adianto
-  
-> Jika Anda ingin berkontribusi untuk memperbaiki halaman ini, silakan kontak iisafriyanti@cs.ui.ac.id
+
+Jika Anda ingin berkontribusi untuk memperbaiki halaman ini, silakan kontak iisafriyanti@cs.ui.ac.id
