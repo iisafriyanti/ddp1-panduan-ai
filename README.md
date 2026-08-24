@@ -68,8 +68,6 @@ AI dapat secara otomatis membuat skenario pengujian (*test cases*) dan *unit tes
 #### 6. Refaktor Kode (*Code Refactoring*)
 AI dapat menganalisis kode yang sudah ada dan menyarankan struktur baru yang lebih bersih, lebih efisien, serta lebih mudah dirawat tanpa mengubah hasil akhirnya.
 
----
-
 ### **Batasan Penggunaan AI di Dasar-Dasar Pemrograman 1:**  
 AI adalah **alat bantu**, bukan **pengganti logika berpikir Anda**. Menggunakan AI untuk memahami sintaks dan mencari *bug* sangat dianjurkan, tetapi mengandalkan AI tanpa memahami logika kodenya sendiri akan menghambat perkembangan Anda sebagai seorang *programmer*. Dengan demikian, Anda juga dapat memanfaatkan AI untuk proses pembelajaran di DDP 1 secara bertanggungjawab. Namun, segala bentuk asesmen di perkuliahan DDP 1 seperti **lab, kuis, ujian tengah semester, dan ujian akhir semster tidak diperkenankan menggunakan AI** untuk mengerjakannya. Di sisi lain, Anda dapat **memanfaatkan AI untuk Tugas Proyek Akhir Berkelompok** (penjelasan terkait ini akan diumumkan kemudian).
 
