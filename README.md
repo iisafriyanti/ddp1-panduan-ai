@@ -17,8 +17,6 @@ Secara sederhana, **Artificial Intelligence (AI)** adalah sistem komputasi yang 
 
 Secara matematis, konsep kerja AI dapat diringkas melalui persamaan fungsi matematika sbb:
 
-$$f(x) = y$$
-
 $$
 f(x) = y
 $$
