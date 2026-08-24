@@ -154,7 +154,7 @@ Banyak model AI, khususnya dalam *Machine Learning*, bekerja seperti "kotak hita
 * **Solusi:** Jika memungkinkan, pengembang sebaiknya memilih dan menggunakan model-model yang lebih mudah diinterpretasikan (*interpretable models*).
 * 
 
-## D. Penggunaan AI secara Bertanggung Jawab (Responsible AI Use)
+## E. Penggunaan AI secara Bertanggung Jawab (Responsible AI Use)
 
 Menggunakan AI secara bertanggung jawab membutuhkan lebih dari sekadar tahu alat apa yang harus dipakai. Anda dituntut untuk memiliki kemampuan **berpikir kritis** terhadap informasi yang dihasilkan AI, memahami asal-usulnya, menyadari keterbatasannya, serta mengambil keputusan akhir berdasarkan pertimbangan logika dan pertimbangan manusia (*human judgement*).
 
