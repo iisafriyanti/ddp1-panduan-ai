@@ -238,18 +238,15 @@ def selesaikan_tugas_3_untuk_saya():
     pass
 ```
 
-## 4. Aturan Atribusi (Sitasi)
-Jika alat AI membantu Anda secara signifikan dalam memperbaiki *bug* atau mengoptimalkan bagian dari kode Anda, Anda wajib mendokumentasikannya di bagian komentar kode.
-
-### Format Sitasi
-Tuliskan blok komentar di bagian atas file atau tepat di atas fungsi yang dibantu oleh AI:
-
-```javascript
-// SITASI AI
-// Alat yang Digunakan: Anthropic Claude 3.5 Sonnet
-// Prompt: "Bagaimana cara mengoptimalkan nested loop ini menjadi pencarian Hash Map?"
-// Adaptasi: Mengubah nama variabel agar sesuai dengan skema proyek dan menambahkan penanganan error.
-```
-
 ## 5. Aturan "Jelaskan Kodemu"
 Dosen dan asisten praktikum berhak memanggil mahasiswa kapan saja untuk sesi *code-review* secara langsung. Jika Anda tidak bisa menjelaskan logika, kompleksitas waktu (*time complexity*), dan sintaks dari kode yang Anda kumpulkan, **Anda akan mendapat nilai nol untuk tugas tersebut**, terlepas dari apakah software plagiarisme mendeteksinya atau tidak.
+
+## Referensi
+
+## Acknowledgement
+Halaman ini berasal dari berbagai sumber tentang literasi AI dan panduan penggunaan AI pada pemrograman. Hasil rangkuman tersebut kemudian menjadi slide presentasi untuk mata kuliah PBP dan kemudian diubah menjadi halaman panduan ini. Tim penulis juga meminta bantuan AI (Gemini) untuk memperbaiki isi tulisan dan kemudian direview dan diperbaiki lagi oleh tim penulis.
+
+## Tim Penulis
+- Iis Afriyanti
+- Daya Adianto
+Jika Anda ingin berkontribusi untuk memperbaiki halaman ini, silakan kontak iisafriyanti@cs.ui.ac.id
