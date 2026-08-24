@@ -19,6 +19,11 @@ Secara matematis, konsep kerja AI dapat diringkas melalui persamaan fungsi matem
 
 $$f(x) = y$$
 
+$$
+f(x) = y
+$$
+
+
 * **$x$** merepresentasikan **Input** (data atau perintah yang Anda berikan).
 * **$y$** merepresentasikan **Output** (hasil, prediksi, atau respons dari AI).
 * **$f(x)$** merepresentasikan **Model AI** itu sendiri.
