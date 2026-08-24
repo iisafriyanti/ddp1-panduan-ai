@@ -5,10 +5,10 @@ Selamat datang di panduan pemanfaatan *Artificial Intelligence* (Generative AI) 
 ---
 
 ## A. Apa itu *Artificial Intelillegence*?
-Definisi mengenai Kecerdasan Buatan (Artificial Intelligence atau AI) sangat beragam dan maknanya terus bergeser tergantung pada konteks pengembangannya. Sejak komputer mulai bermunculan pada dekade 1950-an, para ilmuwan berusaha merancang mesin yang mampu memiliki kecerdasan layaknya manusia. Dari sinilah berbagai algoritma dan bahasa pemrograman mulai dikembangkan agar komputer dapat melakukan tugas-tugas kognitif seperti belajar, beradaptasi, memecahkan masalah (problem solving), hingga mengambil keputusan. 
+Definisi mengenai Kecerdasan Buatan (Artificial Intelligence atau AI) sangat beragam dan maknanya terus bergeser tergantung pada konteks pengembangannya. Sejak teknologi komputer mulai berkembang pada dekade 1950-an, para ilmuwan berusaha merancang mesin yang mampu memiliki kecerdasan layaknya manusia. Dari sinilah berbagai algoritma dan bahasa pemrograman mulai dikembangkan agar komputer dapat melakukan tugas-tugas kognitif seperti belajar, beradaptasi, memecahkan masalah (_problem solving_), hingga mengambil keputusan. 
 
 ### Sejarah Perkembangan AI
-Jika melihat sejarahnya, perkembangan AI dimulai sekitar tahun 1950-an oleh Alan Turing melalui Turing Test, yang dirancang untuk menguji apakah mesin bisa meniru kecerdasan manusia. Jaringan saraf tiruan (neural networks) pertama juga mulai digunakan pada era ini untuk membantu pengenalan pola dan pemodelan prediktif. Pada tahun 1960-an, chatbot ELIZA diciptakan di MIT sebagai program Natural Language Processing pertama. Sayangnya, penelitian AI sempat terhenti di antara tahun 1960-an hingga 1970-an karena kurangnya dana penelitian, fase yang dikenal sebagai AI Winter. 
+Jika melihat sejarahnya, perkembangan AI dimulai sekitar tahun 1950-an oleh Alan Turing melalui Turing Test, yang dirancang untuk menguji apakah mesin bisa meniru kecerdasan manusia. Jaringan saraf tiruan (_neural networks_) pertama juga mulai digunakan pada era ini untuk membantu pengenalan pola dan pemodelan prediktif. Pada tahun 1960-an, chatbot ELIZA diciptakan di MIT sebagai program Natural Language Processing pertama. Sayangnya, penelitian AI sempat terhenti di antara tahun 1960-an hingga 1970-an karena kurangnya dana penelitian, fase yang dikenal sebagai AI Winter. 
 
 Pendaran riset kembali bangkit pada tahun 1990-an melalui dukungan komputasi dari IBM serta perkembangan komputer dan internet. Meningkatnya adopsi internet, kapasitas komputasi yang lebih besar, dan melimpahnya data manusia mendorong kemajuan teknologi AI secara stabil. Hingga akhirnya sejak tahun 2021 ke atas, peluncuran ChatGPT pada tahun 2022 memulai era AI boom dengan kemampuan AI yang jauh lebih akurat dan bertenaga.
 
@@ -38,37 +38,33 @@ Model AI mempelajari pola-pola dari data tersebut untuk memetakan setiap kemungk
 ---
 
 > **Catatan Akademis:**  
-> Konsep probabilitas dan pemetaan statistik ini akan Anda pelajari secara mendalam pada mata kuliah **Statistika dan Probabilitas** dan **KASDD**. Pemahaman mendasar ini akan menjadi fondasi penting ketika Anda mengambil mata kuliah lanjutan di ranah AI, seperti **Machine Learning (ML)** dan **Deep Learning (DL)**.
+> Konsep probabilitas dan statistik ini akan Anda pelajari secara mendalam pada mata kuliah **Statistika dan Probabilitas**. Pemahaman mendasar ini akan menjadi fondasi penting ketika Anda mengambil mata kuliah lanjutan di ranah AI, seperti **KASDD**, **Machine Learning (ML)** dan **Deep Learning (DL)**.
 
 ## B. Pemanfaatan AI pada Pemrograman
 Sebenarnya ada banyak jenis sistem AI tergantung dengan tujuan dan data latihnya. Di satu sisi, Anda mungkin menyadari bahwa Anda sedang memanfaatkan AI seperti pada saat menggunakan Claude, di sisi lain Anda mungkin sedang tidak sadar ketika menggunakan AI, yaitu seperti memprediksi kata berikutnya saat Anda mengetik di HP Anda.
 
-Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_, yaitu rekomendasi kode berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_. Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para pemrogram. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
+Di sisi pemrograman, AI bukanlah suatu hal yang baru. Sebelum ChatGPT populer, banyak tools yang dipakai programmer sehari-hari sudah menggunakan AI. Misalnya adalah _code completion_ pada IDE, yaitu rekomendasi kode _keyword_ berikutnya dengan pendekatan AI (_machine learning_) klasik seperti _rule based_. Namun, saat ini dengan berkembangnya generative AI, sudah jauh lebih pintar, yaitu kita bisa memintanya untuk memberikan kita kode pemrograman dengan input adalah perintah yang biasa kita sebut dengan _prompt_. Di dunia pengembangan perangkat lunak modern, AI telah menjadi alat bantu utama (*copilot*) bagi para _programmer_. Pemanfaatan AI dapat meningkatkan efisiensi dan membantu kita belajar menulis kode dengan lebih cepat.
 
 Berikut adalah beberapa penerapan utama AI dalam pemrograman yang perlu Anda ketahui:
 #### 1. Generasi Kode Otomatis (*Code Generation*)
-AI dapat membuat potongan kode (*code snippet*), fungsi, atau bahkan kerangka aplikasi berdasarkan instruksi teks (*prompt*) yang diberikan.
-* **Contoh:** Menuliskan instruksi *"Buat fungsi Python untuk mengurutkan array angka secara ascending"*, dan AI akan langsung menghasilkan kodenya.
+AI dapat membuat potongan kode (*code snippet*), fungsi, atau bahkan kerangka aplikasi berdasarkan instruksi teks (*prompt*) yang diberikan. **Contoh:** Menuliskan instruksi *"Buat fungsi Python untuk mengurutkan array angka secara ascending"*, dan AI akan langsung menghasilkan kodenya. Anda dapat memanfaatkan tools seperti Github Copilot pada VSCode.
 
 #### 2. Melengkapi Kode Otomatis (*Code Completion*)
-Mirip dengan fitur *autocomplete* pada keyboard HP, AI pada editor kode (seperti VS Code) dapat memprediksi baris kode selanjutnya saat Anda sedang mengetik.
-* **Dampak:** Mempercepat proses mengetik kode (*coding*) dan mengurangi kesalahan penulisan (*syntax error*).
+Mirip dengan fitur *autocomplete* pada keyboard HP, AI pada editor kode (seperti VS Code) dapat memprediksi baris kode selanjutnya saat Anda sedang mengetik. Hal ini dapat mempercepat proses mengetik kode (*coding*) dan mengurangi kesalahan penulisan (*syntax error*).
 
 #### 3. Penemuan dan Perbaikan Bug (*Bug Detection & Fixing*)
-Sistem AI dapat menganalisis kode untuk menemukan potensi kesalahan, kerentanan keamanan, atau variabel yang tidak digunakan sebelum program dijalankan.
-* **Dampak:** AI tidak hanya menunjukkan lokasi error, tetapi juga menyarankan solusi perbaikannya.
+Sistem AI dapat menganalisis kode untuk menemukan potensi kesalahan, kerentanan keamanan, atau variabel yang tidak digunakan sebelum program dijalankan. AI tidak hanya menunjukkan lokasi error, tetapi juga menyarankan solusi perbaikannya.
 
 #### 4. Pembuatan Dokumen Kode Otomatis (*Automated Documentation*)
-AI dapat membaca logika kode yang telah ditulis dan secara otomatis membuatkan komentar penjelasan atau dokumentasi teknis.
-* **Dampak:** Membantu pemrogram lain (atau Anda sendiri di masa depan) untuk memahami alur fungsi kode dengan lebih cepat.
+AI dapat membaca logika kode yang telah ditulis dan secara otomatis membuatkan komentar penjelasan atau dokumentasi teknis. Dengan dmeikian, Anda dapat membantu pemrogram lain (atau Anda sendiri di masa depan) untuk memahami alur fungsi kode dengan lebih cepat.
 
 #### 5. Pengujian Perangkat Lunak (*Automated Testing*)
-AI dapat secara otomatis membuat skenario pengujian (*test cases*) dan *unit test* untuk memastikan program berjalan sesuai rencana dalam berbagai kondisi *input*.
+AI dapat secara otomatis membuat skenario pengujian (*test cases*) dan *unit test* untuk memastikan program berjalan sesuai rencana dalam berbagai kondisi *input*. 
 
 #### 6. Refaktor Kode (*Code Refactoring*)
-AI dapat menganalisis kode yang sudah ada dan menyarankan struktur baru yang lebih bersih, lebih efisien, serta lebih mudah dirawat tanpa mengubah hasil akhirnya.
+AI dapat menganalisis kode yang sudah ada dan menyarankan struktur baru yang lebih bersih, lebih efisien, serta lebih mudah dirawat tanpa mengubah hasil akhirnya. Sebagai contoh dengan memanfaatkan Refactoring.ai dan JetBrains IntelliJ IDEA.
 
-### **Batasan Penggunaan AI di Dasar-Dasar Pemrograman 1:**  
+### **Penggunaan AI di Dasar-Dasar Pemrograman 1:**  
 AI adalah **alat bantu**, bukan **pengganti logika berpikir Anda**. Menggunakan AI untuk memahami sintaks dan mencari *bug* sangat dianjurkan, tetapi mengandalkan AI tanpa memahami logika kodenya sendiri akan menghambat perkembangan Anda sebagai seorang *programmer*. Dengan demikian, Anda juga dapat memanfaatkan AI untuk proses pembelajaran di DDP 1 secara bertanggungjawab. Namun, segala bentuk asesmen di perkuliahan DDP 1 seperti **lab, kuis, ujian tengah semester, dan ujian akhir semster tidak diperkenankan menggunakan AI** untuk mengerjakannya. Di sisi lain, Anda dapat **memanfaatkan AI untuk Tugas Proyek Akhir Berkelompok** (penjelasan terkait ini akan diumumkan kemudian).
 
 #### Penggunaan AI yang Diperbolehkan
@@ -87,7 +83,7 @@ Menggunakan AI dengan cara di bawah ini untuk asesmen **lab, kuis, dan ujian** t
 ### Tips Berinteraksi dengan AI (Prompt Engineering) untuk Pemrograman
 
 #### 1. AI Bukan Manusia: Mereka Membutuhkan Konteks Lengkap
-AI tidak memiliki intuisi, perasaan, atau pemahaman tentang latar belakang masalah Anda jika tidak diberi tahu. Berikan detail latar belakang yang jelas agar AI memahami situasi yang sedang Anda hadapi.
+AI tidak memiliki intuisi, perasaan, atau pemahaman tentang latar belakang masalah Anda jika tidak diberi tahu. Berikan detail yang jelas agar AI memahami situasi yang sedang Anda hadapi.
 
 #### 2. Prompt LLM Berbeda dengan Mesin Pencari (*Search Engine*)
 Saat menggunakan Google, kita terbiasa mengetik kata kunci pendek seperti `"cara sort array python"`. Namun pada Large Language Model (LLM) seperti ChatGPT atau Claude, **prompt yang terlalu singkat tidak akan maksimal**. AI membutuhkan instruksi yang deskriptif dan terstruktur.
@@ -98,11 +94,8 @@ Sampaikan secara eksplisit apa gol utama yang ingin dicapai dan batasan teknis y
 * **Sebutkan Library/Framework:** Misal: *"Gunakan pustaka NumPy"* atau *"Jangan gunakan pustaka eksternal, gunakan pure C++"*.
 * **Sebutkan Batasan (*Constraints*):** Misal: *"Buat kode ini seefisien mungkin tanpa menggunakan perulangan bersarang (nested loop)"*.
 
-#### 4. Gunakan Pendekatan Bertahap (*Iterative Prompting*)
-Sangat jarang AI bisa memberikan jawaban 100% sempurna hanya dalam **satu kali perintah**. Mengembangkan kode bersama AI adalah proses dialog bertahap:
-1. Berikan perintah awal untuk membuat kerangka dasar.
-2. Uji coba (*run*) kode tersebut di komputer Anda.
-3. Jika ada *error* atau kekurangan, salin pesan *error* tersebut dan minta AI untuk memperbaikinya (*debugging* bertahap).
+#### 4. Gunakan Pendekatan *Iterative Prompting*
+Sangat jarang AI bisa memberikan jawaban 100% sempurna hanya dalam **satu kali perintah**. Mengembangkan kode bersama AI adalah proses dialog bertahap, yaitu berikan perintah awal untuk membuat kerangka dasar, uji, dan lakukan debugging pada kode Anda.
 
 ### Perbandingan Contoh Instruksi (*Prompt*)
 
@@ -149,32 +142,25 @@ Sebagai calon _programmer_, tugas Anda bukanlah menelan mentah-mentah output AI,
 
 ## D. Dampak dan Risiko AI dalam Pemembangan Perangkat Lunak
 
-Meskipun AI memberikan keuntungan yang sangat besar dalam pengembangan perangkat lunak, teknologi ini juga membawa potensi risiko yang harus dikelola secara proaktif.
+Meskipun AI memberikan keuntungan yang sangat besar dalam pengembangan perangkat lunak maupun mempermudah aktivitas kita sehari-hari, teknologi ini juga membawa potensi risiko yang harus dikelola secara proaktif.
 
 ### 1. Bias pada Model AI (*Bias in AI Models*)
-Model AI dapat menghasilkan kode atau keputusan yang memihak atau diskriminatif jika data pelatihannya memiliki bias.
-* **Solusi:** Melakukan audit secara berkala terhadap output AI untuk memastikan keadilan, serta mengintegrasikan alat pendeteksi bias (*bias detection tools*) untuk menghasilkan luaran yang lebih setara dan adil.
+Model AI dapat menghasilkan kode atau keputusan yang memihak atau diskriminatif jika data pelatihannya memiliki bias. Maka, Anda perlu melakukan audit secara berkala terhadap output AI untuk memastikan keadilan, serta mengintegrasikan alat pendeteksi bias (*bias detection tools*) untuk menghasilkan luaran yang lebih setara dan adil.
 
 ### 2. Ketergantungan Berlebihan pada AI (*Overreliance on AI*)
-Pengembang (*developer*) dapat menjadi terlalu bergantung pada alat AI untuk menulis kode, melakukan *debugging*, atau pengujian. Hal ini berisiko menurunkan keterampilan dasar pemrograman (*fundamental programming skills*) mereka.
-* **Solusi:** Pengembang harus menjadikan AI sebagai **alat bantu** sembari terus menjaga, melatih, dan mengasah keahlian teknis mereka sendiri.
+Pengembang (*developer*) dapat menjadi terlalu bergantung pada alat AI untuk menulis kode, melakukan *debugging*, atau pengujian. Hal ini berisiko menurunkan keterampilan dasar pemrograman (*fundamental programming skills*) mereka. Dengan demikian, pengembang harus menjadikan AI sebagai **alat bantu** sembari terus menjaga, melatih, dan mengasah keahlian teknis mereka sendiri. Bukan untuk mencari solusi instan.
 
 ### 3. Kerentanan Keamanan (*Security Vulnerabilities*)
-Kode yang dihasilkan oleh AI dapat membawa celah atau kerentanan keamanan jika tidak diperiksa dengan benar.
-* **Solusi:** Pengawasan manual oleh manusia (*human oversight*) harus tetap menjadi komponen krusial dalam proses peninjauan kode (*code review*).
+Kode yang dihasilkan oleh AI dapat membawa celah atau kerentanan keamanan jika tidak diperiksa dengan benar. Dengan demikian, pengawasan manual oleh manusia (*human oversight*) harus tetap menjadi komponen krusial dalam proses peninjauan kode (*code review*).
 
 ### 4. Kurangnya Transparansi (*Lack of Transparency*)
-Banyak model AI, khususnya dalam *Machine Learning*, bekerja seperti "kotak hitam" (*black box*) yang proses pengambilan keputusannya tidak sepenuhnya transparan atau tidak dapat dijelaskan kepada pengguna.
-* **Solusi:** Jika memungkinkan, pengembang sebaiknya memilih dan menggunakan model-model yang lebih mudah diinterpretasikan (*interpretable models*).
-* 
+Banyak model AI, khususnya dalam *Machine Learning*, bekerja seperti "kotak hitam" (*black box*) yang proses pengambilan keputusannya tidak sepenuhnya transparan atau tidak dapat dijelaskan kepada pengguna. Jika memungkinkan, pengembang sebaiknya memilih dan menggunakan model-model yang lebih mudah diinterpretasikan (*interpretable models*) seperti model yang mmeberikan referensi dan Anda juga perlu mengecek referensi yang diberikan.
 
+> **Dampak Lainnya**: Selain dampak maupun risiko di atas, AI juga telah membawa dampak lainnya yang Anda juga perlu mencari tahu. Seperti dampak lingkungan, sosial, kesehatan mental dan lainnya. Anda dapat mempelajarinya di https://craft.stanford.edu/resources/
+ 
 ## E. Penggunaan AI secara Bertanggung Jawab (Responsible AI Use)
 
 Menggunakan AI secara bertanggung jawab membutuhkan lebih dari sekadar tahu alat apa yang harus dipakai. Anda dituntut untuk memiliki kemampuan **berpikir kritis** terhadap informasi yang dihasilkan AI, memahami asal-usulnya, menyadari keterbatasannya, serta mengambil keputusan akhir berdasarkan pertimbangan logika dan pertimbangan manusia (*human judgement*).
-
-Untuk mengevaluasi kode maupun informasi yang dihasilkan AI, Anda dapat menggunakan kerangka kerja evaluasi kritis berikut:
-
----
 
 ### Evaluasi Output dari AI
 
@@ -242,4 +228,5 @@ Halaman ini berasal dari berbagai sumber tentang literasi AI dan panduan penggun
 ## Tim Penulis
 - Iis Afriyanti
 - Daya Adianto
-Jika Anda ingin berkontribusi untuk memperbaiki halaman ini, silakan kontak iisafriyanti@cs.ui.ac.id
+  
+> Jika Anda ingin berkontribusi untuk memperbaiki halaman ini, silakan kontak iisafriyanti@cs.ui.ac.id
